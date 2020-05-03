@@ -36,3 +36,15 @@ if (process.env.NODE_ENV !== 'test') {
       console.log(`🚀 app running at ${url}`)
     });
 }
+
+module.exports = {
+  dataSources,
+  context,
+  typeDefs,
+  resolvers,
+  ApolloServer,
+  LaunchAPI,
+  UserAPI,
+  store,
+  server,
+};
